@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: plexeina-regular, Helvetica, sans-serif;;
+    box-sizing: border-box;
+}
+p{
+    text-align: center;
+    margin-top: 45px;
+}
+body {
+    background-image: url("bgimage.jpg");
+    height: 125vh;
+}
+.main {
+    margin-left: 61vh;
+    margin-top: 8vh;
+    height: 108vh;
+    width: 80vh;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.title h3{
+    padding-top: 120px;
+    padding-left: 76px;
+    padding-right: 89px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.title h5 {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(130, 138, 138);
+    font-weight: 400;
+}
+.input button{
+    margin-left: 11vh;
+    margin-top: 5vh;
+    height: 40px;
+    width: 58vh;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(128, 138, 147);
+}
+.emailPass{
+    margin-top: 2vh;
+}
+.emailPass input{
+    margin-left: 10vh;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 2vh;
+    height: 50px;
+    width: 60vh;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.signin {
+    margin-top: 2vh;
+    margin-left: 15vh;
+    cursor: pointer;
+    height: 45px;
+    width: 50vh;
+    background-color: #e5a00d;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 19px;
+    border: none;
+    border-radius: 12px;
+}
+.signin:hover {
+    background-color: #c4942c;
+}
+.facebook button{
+    margin-left: 11vh;
+    margin-top: 2vh;
+    height: 40px;
+    width: 58vh;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(164, 170, 176);
+    color: rgb(19, 129, 226);;
+}
+.alreadyacc {
+    margin-top: 4vh;
+    margin-left: 25vh;
+}
+.alreadyacc h3 {
+    font-size: 15px;
+    color: #81796b;
+}
+.alreadyacc a {
+    text-decoration: none;
+    color: rgb(162, 162, 165);
+}
+.alreadyacc a:hover {
+    color: #f5a904;
+    transition:  color 0.3s ease;
+}
+.para {
+    padding: 15px 50px 10px 40px;
+}
+.para p {
+    color: #968a74;
+    font-weight: 200;
+}
+.para p a{
+    text-decoration: none;
+}
